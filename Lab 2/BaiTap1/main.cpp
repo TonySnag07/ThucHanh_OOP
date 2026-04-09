@@ -4,6 +4,9 @@
 using namespace std;
 
 int main(){
-    NgayThang dt;
+    NgayThangNam dt;
     dt.Nhap();
+    dt.NgayThangNamTiepTheo();
+    dt.Xuat();
+    return 0;
 }
