@@ -14,10 +14,9 @@ int main(){
     cout << "Thuong: "; ps1.Thuong(ps2).Xuat(); cout << endl;
     
     if (ps1.SoSanh(ps2) != 0) {
-        cout << "Phan so lon nhat la: ";
-        if (ps1.SoSanh(ps2) ==1 ) ps2.Xuat();
-        else ps1.Xuat();
+        if (ps1.SoSanh(ps2) ==1 ) cout << "PS1 < PS2";
+        else cout << "PS1 > PS2";
     }
-    else cout <<"Hai phan so bang nhau";
+    else cout <<"PS1 = PS2";
     return 0;
 }

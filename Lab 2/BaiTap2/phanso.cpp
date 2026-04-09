@@ -23,7 +23,8 @@ void PhanSo::Nhap(){
     RutGon();
 }
 void PhanSo::Xuat(){
-    if (itu == 0) cout << 0;
+    if (imau == 0) cout<< "Phan so khong ton tai";
+    else if(itu == 0) cout << 0;
     else if (imau == 1) cout << itu;
     else cout << itu << "/" << imau; 
 }
